@@ -1,0 +1,23 @@
+configure
+edit shared
+edit policies
+edit security
+
+# Create a new security policy
+set rule limit_traffic rule-type rule
+set rule limit_traffic description "Limit Traffic"
+set rule limit_traffic source any
+set rule limit_traffic destination any
+set rule limit_traffic source-user any
+set rule limit_traffic category any
+set rule limit_traffic application any
+set rule limit_traffic service HTTP
+
+# Configure the action for the policy
+set rule limit_traffic action allow
+
+# Configure rate limiting for the policy
+set rule limit_traffic rate-limiting-mode packet-per-second
+set rule limit_traffic rate-limit-pps 1000
+
+commit
