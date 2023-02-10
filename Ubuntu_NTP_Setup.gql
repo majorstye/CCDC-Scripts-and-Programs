@@ -1,0 +1,22 @@
+# Update the package list
+sudo apt-get Update
+
+# Install the NTP dawmon
+sudo apt-get install NTP
+
+# Edit the NTP config file
+sudo nano /etc/ntp.config
+
+# Add these lines to the config file to set the NTP servers
+server 0.ubuntu.pool.ntp.org
+server 1.ubuntu.pool.ntp.org
+server 2.ubuntu.pool.ntp.org
+server 3.ubuntu.pool.ntp.org
+
+# Save the config file then close it
+
+# Restart the NTP daemon
+sudo service ntp Restart
+
+# Verify the NTP server status
+sudo ntpq -p 
