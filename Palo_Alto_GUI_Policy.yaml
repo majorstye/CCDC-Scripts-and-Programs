@@ -1,0 +1,32 @@
+# Log in to the firewall's web interface
+
+# Go to the Policy tab and click on Security Rules
+
+# Create a new security rule to block all incoming traffic from the untrusted zone to the trusted zone:
+  - Name: Block Incoming Traffic
+  - Type: Security
+  - Source: untrust
+  - Destination: trust
+  - Application: any
+  - Action: deny
+  - Logging: enable
+
+# Create a new security rule to allow incoming traffic from a specific IP address or subnet to the trusted zone:
+  - Name: Allow Specific IP
+  - Type: Security
+  - Source: X.X.X.X/X (replace with the specific IP address or subnet)
+  - Destination: trust
+  - Application: any
+  - Action: allow
+  - Logging: enable
+
+# Create a new security rule to allow incoming traffic from the trusted zone to the untrusted zone for specific applications:
+  - Name: Allow Outgoing Traffic
+  - Type: Security
+  - Source: trust
+  - Destination: untrust
+  - Application: ssh, http, https
+  - Action: allow
+  - Logging: enable
+
+# Save the configuration changes
