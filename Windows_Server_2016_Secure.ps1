@@ -22,4 +22,4 @@ $passwordPolicy.ExpirePasswordNow()
 
 #This will enable SSL encryption
 Import-Module IISAdministration
-Get-childItem -Path IIS:\SslBindings | Where-Object { $_.IPAddress -eq "*" } | ForEach-Object { $_>AddSslCertificate("<CertificateThumbprint>", "<CertificateStore>") }
+Get-childItem -Path IIS:\SslBindings | Where-Object { $_.IPAddress -eq "*" } | ForEach-Object { $_>AddSslCertificate } ("<CertificateThumbprint>", "<CertificateStore>") 
