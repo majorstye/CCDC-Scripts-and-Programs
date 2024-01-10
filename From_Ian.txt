@@ -1,0 +1,10 @@
+To enter files into a folder, edit the file, and in the name type:
+  [FolderName]/[FileName]
+
+You can just add the folder name to the front end of the existing file name, followed by a "/"
+If you want to create a new file, it's the same format, but with the new file name.
+
+I created readme files for the first two I did because I didn't realize that I could just edit files into folders.
+
+TO TYE: if you want to change the folder names you can just edit the folder name in the files. I believe the folder will
+dissappear when you move everthing out of it. Also I'm not really sure how to commit this branch to the main branch.
