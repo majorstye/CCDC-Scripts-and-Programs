@@ -8,3 +8,4 @@ I created readme files for the first two I did because I didn't realize that I c
 
 TO TYE: if you want to change the folder names you can just edit the folder name in the files. I believe the folder will
 dissappear when you move everthing out of it. Also I'm not really sure how to commit this branch to the main branch.
+EDIT - I figured out how to commit it. We can talk about it in our meeting lol
