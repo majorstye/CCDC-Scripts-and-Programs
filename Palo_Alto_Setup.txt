@@ -1,0 +1,49 @@
+Configure Management Interface:
+
+Go to "Device" > "Setup" > "Management."
+Edit the "Management Interface" settings, set the IP address, netmask, default gateway, and DNS servers.
+
+Configure NTP:
+
+Go to "Device" > "Setup" > "Management."
+Edit the "NTP" settings and add the NTP servers.
+
+Create Admin User:
+
+Go to "Device" > "Admin Roles" > "Superuser."
+Add a new admin user with the desired username and password.
+
+Enable HTTPS Management:
+
+Go to "Device" > "Setup" > "Management."
+Edit the "SSL Decryption" settings and configure SSL/TLS service profiles and certificates.
+
+Configure Security Policies:
+
+Go to "Policies" > "Security."
+Add a new security policy, specifying source and destination zones, addresses, applications, services, and action.
+
+Configure NAT Policies:
+
+Go to "Policies" > "NAT."
+Add a new NAT policy, specifying source and destination zones, addresses, services, and NAT translations.
+
+Enable Threat Prevention:
+
+Go to "Objects" > "Security Profiles" > "Antivirus" or "Anti-Spyware" or "Vulnerability Protection."
+Enable the desired threat prevention profiles.
+
+Configure DoS Protection:
+
+Go to "Objects" > "DoS Protection."
+Edit the global DoS Protection settings and configure as needed.
+
+Logging Configuration:
+
+Go to "Device" > "Setup" > "Logging."
+Edit the logging settings and enable logging for desired categories like URL and Threat.
+
+Syslog Configuration:
+
+Go to "Device" > "Setup" > "Logging."
+Edit the syslog settings and add the syslog server IP
