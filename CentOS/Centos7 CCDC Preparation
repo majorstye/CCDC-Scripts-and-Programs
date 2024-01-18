@@ -1,0 +1,23 @@
+#Centos7 CCDC Preparation 
+#Centos7 is a ecommerce 
+#!/bin/bash
+#Change Password
+passwd [username]
+#Make own admin user 
+adduser [newusername]
+passwd [newusername]
+usermod -aG wheel [newusername]
+#-->Replace [newusername] with the desired username.
+#The usermod command adds the user to the wheel group,
+#which has sudo privileges. <---
+
+#Check All users
+cut -d: -f1 /etc/passwd
+#enable Firewall
+sudo systemctl start firewalld
+sudo systemctl enable firewalld
+#make sure ports are closed or open
+sudo firewall-cmd --list-ports
+Sudo firewall-cmd –list-ports
+#Encrypt Files
+gpg -c [filename]
