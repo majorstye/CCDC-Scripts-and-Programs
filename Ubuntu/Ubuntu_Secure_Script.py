@@ -1,6 +1,7 @@
 import subprocess
 
 # Update System
+# On our Ubuntu Server, the following line returns an error saying the "run" attribute doesn't exist in module.
 subprocess.run(['sudo', 'apt-get', 'update'], capture_output=True)
 subprocess.run(['sudo', 'apt-get', 'upgrade'], capture_output=True)
 
