@@ -1,0 +1,32 @@
+# This file has a list of helpful websites.
+
+# Commands by OS
+https://ss64.com/
+
+
+# NMAP commands cheatsheet
+https://www.stationx.net/nmap-cheat-sheet/
+
+# Link to a nice gist.github with Linux Commands
+https://gist.github.com/miranda-zhang/c580cc45bed3317501a6071726d929c0
+
+# List of vulnerabilites website:
+
+# Ubuntu 18.04
+https://www.cvedetails.com/version/474925/Canonical-Ubuntu-Linux-18.04.html
+# All Ubuntu
+https://www.cvedetails.com/vulnerability-list/vendor_id-4781/product_id-20550/Canonical-Ubuntu-Linux.html
+# Windows 10
+https://www.cvedetails.com/version-list/26/32238/1/Microsoft-Windows-10.html
+# Windows Server 2016
+https://www.cvedetails.com/version-list/26/34965/1/Microsoft-Windows-Server-2016.html
+# Windows Server 2019
+https://www.cvedetails.com/version-list/26/50662/1/Microsoft-Windows-Server-2019.html
+# Debian 10
+https://www.cvedetails.com/vulnerability-list/vendor_id-23/product_id-36/version_id-390324/Debian-Debian-Linux-10.0.html
+# Fedora 21
+https://www.cvedetails.com/vulnerability-list/vendor_id-6924/product_id-16334/version_id-464955/Fedoraproject-Fedora-21.html
+# Splunk 9.1.1
+https://www.cvedetails.com/vulnerability-list/vendor_id-10963/product_id-19642/version_id-1665385/Splunk-Splunk-9.1.1.html
+# CentOS
+https://www.cvedetails.com/vulnerability-list/vendor_id-10167/product_id-18131/Centos-Centos.html
